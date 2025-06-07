@@ -32,4 +32,5 @@ epsilon 控制「隨機 vs. 最佳動作」的比例
 Clip 梯度可以防止 Q 值暴衝，造成數值不穩
 ## 每 TARGET_UPDATE 步驟，同步 target_net
 
-# 結論 : 靠著CNN+Frame stack擷取動態訊息，藉著Replay buffer儲存舊資料，用DQN來避免高估Q值，最終獲得還不錯的成果
+# 結論 : 
+靠著CNN+Frame stack擷取動態訊息，藉著Replay buffer儲存舊資料，用DQN來避免高估Q值，最終獲得還不錯的成果
